@@ -19,3 +19,7 @@ Configurar o storybook:
 
 - `npx sb init --builder @storybook/builder-vite --use-npm`
 - `npm run storybook`
+
+Outras linhas de comando:
+
+- `npm install --save clsx`
