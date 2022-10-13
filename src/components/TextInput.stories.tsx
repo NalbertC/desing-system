@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Envelope } from "phosphor-react";
+import { EnvelopeSimple } from "phosphor-react";
 import { TextInput, TextInputRootProps } from "./TextInput";
 
 export default {
@@ -9,7 +9,7 @@ export default {
     children: (
       <>
         <TextInput.Icon>
-          <Envelope />
+          <EnvelopeSimple />
         </TextInput.Icon>
         <TextInput.Input placeholder="Type your e-mail address" />
       </>
