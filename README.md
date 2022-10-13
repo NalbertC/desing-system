@@ -25,3 +25,7 @@ Outras linhas de comando:
 - `npm install --save clsx`
 
 - `npm i phosphor-react` para icones
+
+### Interface do Projeto:
+
+Protótipo do projeto https://www.figma.com/file/UypXRXWaZLTCGA1x1MyrVW/Ignite-Lab-%7C-design-system?node-id=0%3A1
