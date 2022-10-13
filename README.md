@@ -23,3 +23,5 @@ Configurar o storybook:
 Outras linhas de comando:
 
 - `npm install --save clsx`
+
+- `npm i phosphor-react` para icones
