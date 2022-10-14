@@ -22,9 +22,17 @@ Configurar o storybook:
 
 Outras linhas de comando:
 
-- `npm install --save clsx`
+- `npm install --save clsx`.
 
-- `npm i phosphor-react` para icones
+Para usar componentes não estilizados do Redix UI.
+
+- `npm install @radix-ui/react-slot` para usar slot.
+
+- `npm install @radix-ui/react-checkbox` para usar checkbox.
+
+Para usar a biblioteca de ícones Phosphor.
+
+- `npm i phosphor-react`
 
 ### Interface do Projeto:
 
