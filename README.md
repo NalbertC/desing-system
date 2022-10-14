@@ -34,6 +34,14 @@ Para usar a biblioteca de ícones Phosphor.
 
 - `npm i phosphor-react`
 
+Para realizar deploy da Aplicação no GitHub
+
+- `npm i @storybook/storybook-deployer --save-dev`
+
+Para realizar build da Aplicação
+
+- `npm run build-storybook`
+
 ### Interface do Projeto:
 
 Protótipo do projeto https://www.figma.com/file/UypXRXWaZLTCGA1x1MyrVW/Ignite-Lab-%7C-design-system?node-id=0%3A1
