@@ -42,6 +42,10 @@ Para realizar build da Aplicação
 
 - `npm run build-storybook`
 
+Para adicionar o addon de acessibilidade
+
+- `npm install @storybook/addon-a11y`
+
 ### Interface do Projeto:
 
 Protótipo do projeto https://www.figma.com/file/UypXRXWaZLTCGA1x1MyrVW/Ignite-Lab-%7C-design-system?node-id=0%3A1
