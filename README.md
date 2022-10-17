@@ -4,12 +4,17 @@ Projeto de Desing System do Figma ao React estudado durante o Ignite Lab | React
 
 Ferramentas utilizadas:
 
+- Figma
 - React - vite - `npm create vite@latest`
 - Typescript
 
 Dependencias utilizadas:
 
 - `npm i -D tailwindcss postcss autoprefixer`
+
+Interface do Projeto:
+
+- <a href="https://www.figma.com/file/UypXRXWaZLTCGA1x1MyrVW/Ignite-Lab-%7C-design-system?node-id=0%3A1">Protótipo do projeto no Figma.</a>
 
 ### Linhas de comandos ultizados:
 
@@ -46,6 +51,6 @@ Para adicionar o addon de acessibilidade
 
 - `npm install @storybook/addon-a11y`
 
-### Interface do Projeto:
+Para converter SVG do Figma em componente do React:
 
-Protótipo do projeto https://www.figma.com/file/UypXRXWaZLTCGA1x1MyrVW/Ignite-Lab-%7C-design-system?node-id=0%3A1
+- <a href="https://transform.tools/">transform.tools</a>

@@ -26,6 +26,7 @@ function TextInputIcons(props: TextInputIconsProps) {
 
 TextInputIcons.displayName = "TextInput.Icon";
 
+//============== input =====================
 export interface TextInputInputProps
   extends InputHTMLAttributes<HTMLInputElement> {}
 
@@ -37,6 +38,7 @@ function TextInputInput(props: TextInputInputProps) {
     />
   );
 }
+TextInputInput.displayName = "TextInput.Input";
 
 export const TextInput = {
   Root: TextInputRoot,
