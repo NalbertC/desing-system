@@ -54,3 +54,7 @@ Para adicionar o addon de acessibilidade
 Para converter SVG do Figma em componente do React:
 
 - <a href="https://transform.tools/">transform.tools</a>
+
+Para addicionar o plugin de interações do Storybook:
+
+- `npm install @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner -D`

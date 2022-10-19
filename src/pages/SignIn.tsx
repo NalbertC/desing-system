@@ -1,5 +1,5 @@
 import { EnvelopeSimple, Lock } from "phosphor-react";
-import React from "react";
+import React, { FormEvent, useState } from "react";
 import { Button } from "../components/Button";
 import { Checkbox } from "../components/Checkbox";
 import { Heading } from "../components/Heading";
@@ -10,6 +10,15 @@ import { Logo } from "../Logo";
 import "../styles/global.css";
 
 export function SignIn() {
+  // estado para simular login
+  const [isUserSignIn, setIsUserSignIn] = useState(false);
+
+  function handleSignIn(event: FormEvent) {
+    event.preventDefault();
+
+    setIsUserSignIn(true);
+  }
+
   return (
     <div className="w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100">
       <header className="flex flex-col items-center">
@@ -23,7 +32,12 @@ export function SignIn() {
         </Text>
       </header>
 
-      <form className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10">
+      <form
+        onSubmit={handleSignIn}
+        className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10"
+      >
+        {isUserSignIn && <Text>Login realizado!</Text>}
+
         <label htmlFor="email" className="flex flex-col gap-3">
           <Text className="font-semibold">Endereço de e-email</Text>
 
