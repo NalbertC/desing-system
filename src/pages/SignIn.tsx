@@ -1,3 +1,4 @@
+import axios from "axios";
 import { EnvelopeSimple, Lock } from "phosphor-react";
 import React, { FormEvent, useState } from "react";
 import { Button } from "../components/Button";
@@ -13,8 +14,13 @@ export function SignIn() {
   // estado para simular login
   const [isUserSignIn, setIsUserSignIn] = useState(false);
 
-  function handleSignIn(event: FormEvent) {
+  async function handleSignIn(event: FormEvent) {
     event.preventDefault();
+
+    await axios.post("/sessions", {
+      email: "nalberthcastro1510@gmail.com",
+      password: "12345678",
+    });
 
     setIsUserSignIn(true);
   }

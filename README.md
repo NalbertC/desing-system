@@ -58,3 +58,17 @@ Para converter SVG do Figma em componente do React:
 Para addicionar o plugin de interações do Storybook:
 
 - `npm install @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner -D`
+
+Para realizar test na Aplicação:
+
+- `npm run test-storybook` ou `npm run test-storybook -- --watch`
+
+Para realizar chamadas HTTP:
+
+- `npm install axios`
+
+Para adicionar o msw:
+
+- `npm i msw msw-storybook-addon -D`
+
+- `npx msw init public/`
